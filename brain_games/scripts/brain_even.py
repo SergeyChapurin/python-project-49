@@ -22,7 +22,7 @@ def main():
             i = i-1
             print('Correct!')
         else:
-            print(f"'{your_answer}' is wrong ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}")
+            print(f"'{your_answer}' is wrong ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
             break
         if i == 0:
             print(f'Congratulations, {name}!')
