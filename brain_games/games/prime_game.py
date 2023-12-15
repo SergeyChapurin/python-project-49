@@ -1,8 +1,8 @@
 from random import randint
-start_message = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+BEGINNING = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def round():
+def game_stage():
     num = randint(2, 100)
     question = (f'Question: {num}')
     for i in range(2, (num // 2) + 1):

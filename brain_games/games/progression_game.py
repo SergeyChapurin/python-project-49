@@ -1,8 +1,8 @@
 from random import randint
 import math
-start_message = 'What number is missing in the progression?'
+BEGINNING = 'What number is missing in the progression?'
 
-def round():
+def game_stage():
     start = randint(1, 50)
     step = randint(1, 10)
     len_prog = randint(7, 10)

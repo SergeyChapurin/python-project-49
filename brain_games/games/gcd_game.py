@@ -1,8 +1,8 @@
 from random import randint
-start_message = 'Find the greatest common divisor of given numbers.'
+BEGINNING = 'Find the greatest common divisor of given numbers.'
 
 
-def round():
+def game_stage():
     num_1 = randint(0, 100)
     num_2 = randint(0, 100)
     question = f'{num_1}  {num_2}'
