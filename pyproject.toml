@@ -1,12 +1,17 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Console games"
 authors = ["SergeyChapurin <goodwin7@list.ru>"]
 readme = "README.md"
+classifiers = ["Environment :: Console",
+               "Programming Language :: Python :: 3.10",
+               "Topic :: Games/Entertainment"
+               ]
 packages = [
   { include = "brain_games" },
 ]
+repository = "https://github.com/SergeyChapurin/python-project-49.git"
 
 [tool.poetry.dependencies]
 python = "^3.10"

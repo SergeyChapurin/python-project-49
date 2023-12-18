@@ -4,7 +4,7 @@ BEGINNING = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 def game_stage():
     num = randint(1, 100)
-    question = (f'Question: {num}')
+    question = num
     if num % 2 == 0:
         correct_answer = "yes"
     else:
