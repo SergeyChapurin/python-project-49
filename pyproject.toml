@@ -1,12 +1,19 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Brain Games. This project consists of 5 console math games"
 authors = ["SergeyChapurin <goodwin7@list.ru>"]
+repository = "https://github.com/SergeyChapurin/python-project-49.git"
 readme = "README.md"
 packages = [
   { include = "brain_games" },
 ]
+classifiers = [
+    "Environment :: Console",
+    "License :: Free for non-commercial use",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.10"
+    ]
 
 [tool.poetry.dependencies]
 python = "^3.10"
