@@ -12,8 +12,10 @@ def play_game(game):
         print(f'Question: {question}')
         your_answer = prompt.string('Your answer: ')
         if your_answer != correct_answer:
-            print(f"'{your_answer}' is wrong ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
+            print(f'"{your_answer}" is wrong ;(.')
+            print(f'Correct answer was "{correct_answer}".')
+            print(f"Let's try again, {name}!")
             break
         print('Correct!')
-    if win == ROUNDSCOUNT - 1:        
-        print(f'Congratulations, {name}!')
+        if win == ROUNDSCOUNT - 1:
+            print(f'Congratulations, {name}!')

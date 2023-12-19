@@ -3,6 +3,7 @@
 from brain_games.games import gcd_game
 from brain_games.logic_brain import play_game
 
+
 def main():
     play_game(gcd_game)
 

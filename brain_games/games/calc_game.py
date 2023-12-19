@@ -2,6 +2,7 @@ from random import randint
 from random import choice
 BEGINNING = 'What is the result of the expression?'
 
+
 def game_stage():
     num_1 = randint(1, 20)
     num_2 = randint(1, 20)

@@ -1,6 +1,6 @@
 from random import randint
-import math
 BEGINNING = 'What number is missing in the progression?'
+
 
 def game_stage():
     start = randint(1, 50)
@@ -11,5 +11,5 @@ def game_stage():
     hide_index = randint(0, len_prog - 1)
     correct_answer = str(progression[hide_index])
     progression[hide_index] = '..'
-    question = " ".join(map(str,progression))
+    question = " ".join(map(str, progression))
     return question, correct_answer
