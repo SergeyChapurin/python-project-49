@@ -1,8 +1,8 @@
 from random import randint
-BEGINNING = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
-def game_stage():
+def get_question_and_correct_answer():
     start = randint(1, 50)
     step = randint(1, 10)
     len_prog = randint(7, 10)
