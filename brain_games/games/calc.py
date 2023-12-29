@@ -7,7 +7,6 @@ DESCRIPTION = 'What is the result of the expression?'
 
 
 def get_question_and_correct_answer():
-
     num_1 = randint(1, 20)
     num_2 = randint(1, 20)
     operation, operator = choice([

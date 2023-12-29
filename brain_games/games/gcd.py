@@ -6,7 +6,6 @@ DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
 def get_question_and_correct_answer():
-
     num_1 = randint(0, 100)
     num_2 = randint(0, 100)
 
